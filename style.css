@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+}
+li {
+    margin-left: -25px;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: rgb(104, 103, 103);
+    font-size: 21px;
+}
+
+.btn1 {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(66, 66, 66);
+    font-size: 17px;
+    border-radius: 24px;
+}
+
+.btn1:hover {
+    background-color: lightgray;
+}
+
+.btn2 {
+    background-color: rgba(52, 80, 105, 0);
+    border: 1px solid rgb(140, 140, 175);
+    color: rgb(78, 44, 204);
+    border-radius: 50px;
+    font-size: 17px;
+}
+
+.btn2:hover {
+    background-color: rgb(219, 217, 217);
+}
+
+#nav {
+    border-right: 1px solid gray;
+}
+
+.main1 h1 {
+    color: #8f5849;
+}
+
+div a {
+    text-decoration: none;
+    color: #0a66c2;
+}
+
+.signin {
+    background-color: #0a66c2;
+    color: rgb(255, 255, 255);
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.google {
+    background-color: #fff;
+    cursor: pointer;
+    border-width: thin;
+    border: 1px solid gray;
+    border-radius: 24px;
+}
+
+.join {
+    background-color: #fff;
+    border-width: 1px;
+    border-radius: 24px;
+    border: 1px solid black;
+}
+
+.main2 p {
+    font-weight: lighter;
+}
+
+.main2 button {
+    border: 1px solid gray;
+    border-radius: 44px;
+}
+
+#more {
+    display: none;
+    transition: .5s;
+}
+
+.main3 {
+    background-color: #fff1ee;
+    color: #8f5849;
+}
+
+.main4 h1 {
+    font-weight: 200;
+}
+
+table tr th {
+    background-color: rgb(241, 241, 241);
+    border-bottom: 10px solid rgb(255, 255, 255);
+}
+
+table tr th a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+#gradient {
+    background-image: linear-gradient(to right,
+            white 0% 30%,
+            rgb(219, 245, 255) 30% 70%);
+}
+
+#main5 button {
+    background-color: blue;
+    color: #fff;
+    border-radius: 24px
+}
+
+#main5 {
+    background-image: url(https://static.licdn.com/aero-v1/sc/h/4ezbw852t2wrgf27zl1o1qtu7);
+    background-size: cover;
+    height: 600px;
+}
+#signin-form label.error {
+    color: red;
+}
+#crop{
+    height: 40em;
+}
+@media screen and (max-width:992px) {
+    #nav {
+        display: none;
+    }
+.img-fluid{
+    margin-top: 80px;
+}
+
+}
+
+@media screen and (max-width:770px) {
+    #gradient {
+        background-image: linear-gradient(white 0% 30%,
+                rgb(219, 245, 255) 30% 70%);
+    }
+    /* #crop {
+        height: 40em;
+    } */
+    iframe {
+        height: 400px;
+    }
+    .img-fluid{
+        height: 26rem;
+    }
+
+}
+
+
+
+@media screen and (max-width:700px) {
+    #main5 {
+        background-image: none;
+        height: auto;
+    }
+}
+
+ul li {
+    list-style-type: none;
+    font-weight: 200;
+}
+
+@media screen and (max-width) {
+    ul li {
+        float: left;
+    }
+}
+
+
+
+@media screen and (width <450px) {
+
+
+    iframe {
+        height: 400px;
+    }
+
+    .bg-light img{
+        height: 26rem;
+    }
+
+    #main5 button {
+        font-size: 14px;
+        padding-left: 4%;
+    }
+
+    /* #crop {
+        padding-right: 10px;
+        height: 377px;
+    } */
+
+   
+}
